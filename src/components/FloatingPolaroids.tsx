@@ -9,12 +9,12 @@ interface MediaItem {
 }
 
 const MEDIA: MediaItem[] = [
-    { type: 'image', src: "/bg-image-1.jpg" },
-    { type: 'video', src: "/bg-video-1.mp4" },
-    { type: 'image', src: "/bg-image-2.jpg" },
-    { type: 'video', src: "/bg-video-2.mp4" },
-    { type: 'image', src: "/bg-image-3.jpg" },
-    { type: 'video', src: "/bg-video-3.mp4" }
+    { type: 'image', src: `${import.meta.env.BASE_URL}bg-image-1.jpg` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}bg-video-1.mp4` },
+    { type: 'image', src: `${import.meta.env.BASE_URL}bg-image-2.jpg` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}bg-video-2.mp4` },
+    { type: 'image', src: `${import.meta.env.BASE_URL}bg-image-3.jpg` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}bg-video-3.mp4` }
 ];
 
 const VideoPlane = ({ src, scale, opacity }: { src: string, scale: number, opacity: number }) => {

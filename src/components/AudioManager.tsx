@@ -52,7 +52,7 @@ export const AudioManager: React.FC<AudioManagerProps> = ({ isMuted, onToggleMut
             <audio
                 ref={audioRef}
                 loop
-                src="/song.mp3"
+                src={`${import.meta.env.BASE_URL}song.mp3`}
             />
 
             <div className="fixed top-6 right-6 z-50">
