@@ -7,19 +7,19 @@ const MEMORIES = [
         date: "First Met",
         title: "The Beginning",
         description: "I was just smiling thinking about when we met up after Christmas break. I’ll never forget that challenge we made on WhatsApp right before seeing each other.",
-        image: "/first meet.jpg"
+        image: "/first-meet.jpg"
     },
     {
         date: "First Date",
         title: "Coffee & Nervous Laughs",
         description: "That first date holds such a special place in my heart. Between the meal we shared and the way we laughed together, it stands out as one of the most beautiful moments of our story.",
-        image: "/first date.jpg"
+        image: "/first-date.jpg"
     },
     {
         date: "First Trip",
         title: "Adventures Together",
         description: "Our first trip wasn't a long journey in miles, but we traveled through so many emotions together. We fought, we laughed, and we truly lived in those moments. That trip taught me a beautiful lesson: it’s never about the destination or the place; it is entirely about who you are traveling with.",
-        image: "/first out.jpg"
+        image: "/first-trip.jpg"
     },
     {
         date: "Today",
