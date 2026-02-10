@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body bg-gray-50 text-gray-800 antialiased overflow-x-hidden;
+  }
+}
+
+.glass-card {
+  @apply bg-white/30 backdrop-blur-xl border border-white/40 shadow-xl rounded-2xl;
+}
+
+/* Custom Scrollbar for smooth feeling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-rose-quartz/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-rose-quartz/80;
+}
